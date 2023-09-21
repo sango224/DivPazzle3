@@ -10,13 +10,20 @@
   background: #ff0000;
   position: relative;
 }
+.white{
+  width: 160px;
+  height: 60px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
 .purple{
   width: 40px;
   height: 40px;
   background: #a9004b;
-  position: absolute;
-  right: 20px;
-  top: 30px;
+  float: left;
+  margin: 10px;
 }
 .green{
   width: 150px;
@@ -31,13 +38,17 @@
   float: left;
   position: relative;
 }
+.orangebox{
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
 .orange{
   width: 140px;
   height: 40px;
   background: #ff863f;
-  position: absolute;
-  left: 40px;
-  top: 40px;
+  margin: 10px;
+  border: 5px solid #ffffff;
 }
 .yellow{
   width: 400px;
