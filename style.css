@@ -11,9 +11,12 @@
   position: relative;
 }
 .white{
-  width: 180px;
+  width: 160px;
   height: 60px;
+  background-color: #ffffff;
   position: absolute;
+  display: flex;
+  justify-content: center;
   right: 20px;
   top: 20px;
 }
@@ -23,7 +26,7 @@
   background: #a9004b;
   display: flex;
   float: left;
-  border: solid 10px #ffffff;
+  margin: 10px 5px;
 }
 .green{
   width: 150px;
@@ -40,15 +43,18 @@
 }
 .orangebox{
   position: absolute;
-  left: 30px;
-  top: 30px;
+  left: 40px;
+  top: 40px;
 }
 .orange{
   width: 140px;
   height: 40px;
   background: #ff863f;
-  margin-bottom: 10px;
   border: 5px solid #ffffff;
+  margin-bottom: 10px;
+}
+.orange:last-child{
+  margin: 0;
 }
 .yellow{
   width: 400px;
