@@ -11,22 +11,18 @@
   position: relative;
 }
 .white{
-  width: 160px;
-  height: 60px;
-  background-color: #ffffff;
   position: absolute;
   display: flex;
-  justify-content: center;
   right: 20px;
   top: 20px;
+  padding: 5px;
 }
 .purple{
   width: 40px;
   height: 40px;
   background: #a9004b;
   display: flex;
-  float: left;
-  margin: 10px 5px;
+  margin: 5px;
 }
 .green{
   width: 150px;
