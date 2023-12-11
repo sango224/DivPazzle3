@@ -15,14 +15,18 @@
   display: flex;
   right: 20px;
   top: 20px;
-  padding: 5px;
+  padding: 10px;
+  background-color: #ffffff;
 }
 .purple{
   width: 40px;
   height: 40px;
   background: #a9004b;
   display: flex;
-  margin: 5px;
+  margin-right: 10px;
+}
+.purple:last-child{
+  margin-right: 0;
 }
 .green{
   width: 150px;
